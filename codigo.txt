@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Perter Parker</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#travel">Viajes</a></li>
+            <li><a href="#movies">Películas</a></li>
+            <li><a href="#books">Libros</a></li>
+            <li><a href="#contact">Acerca de mí</a></li>
+          </ul>
+        </div>
+    
+    </nav>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------
+    <div class="container">    
+        <h2 class="page-header" id="travel">Destinos que tienes que visitar</h2>
+      <center>
+            <div class="travel_mainDiv"> 
+                <img src="trave1.jpg">
+  
+                <h4 class="text-capitalize"><kbd>prithvi cafe</kbd></h4>                
+                <hr>  
+                <h5 class="text-success text-capitalize" >visité este lugar en diciembre de 2018</h5>  
+                <p class="text-muted" >Un pequeño restaurante pintoresco localizado en Juhu. Si cierras los ojos por un segundo, tal vez pierdas de vista la entrada a este café. Pon mucha atención al letrero color negro que dice “Prithvi cafe” cuando pases por la autopista principal. El restaurante tiene un menú muy bueno a precios razonables. La comida es deliciosa y las porciones son grandes. Algunos platillos, incluso, pueden ser compartidos hasta por dos personas. Podrás ver a muchas celebridades rondando por aquí. Asegúrate de reservar una mesa si no quieres perderte de la experiencia. Este lugar es cede del famoso "Prithvi theater fest" al que tienes que asistir si tienes la oportunidad. </p>
+            </div>
+-----------------------------------------------------------------------------------------------------------------------------------
+.travel_mainDiv {
+    border: 1px solid lightgrey;
+}
+
+.travel_mainDiv img {
+  width: 100%;
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p {
+margin: 20px;
+}
+
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.movie_head i {
+float: right;
+}
+
+.movie_text span {
+color: orange;
+}
+
+
+.book{
+    margin-bottom: 20px;
+}
+
+#contact iframe {
+    width: 100%;
+}
+-------------------------------------------------------------------------------------------------------------------------
